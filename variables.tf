@@ -3,3 +3,8 @@ variable "secrets" {
   type    = any
   default = {}
 }
+
+variable "tags" {
+  type    = map(any)
+  default = {}
+}

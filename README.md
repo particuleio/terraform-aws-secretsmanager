@@ -37,8 +37,11 @@ No modules.
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
 | <a name="input_secrets"></a> [secrets](#input\_secrets) | Define the module's input below | `any` | `{}` | no |
+| <a name="input_tags"></a> [tags](#input\_tags) | n/a | `map(any)` | `{}` | no |
 
 ## Outputs
 
-No outputs.
+| Name | Description |
+|------|-------------|
+| <a name="output_secrets"></a> [secrets](#output\_secrets) | n/a |
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
