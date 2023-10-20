@@ -18,7 +18,7 @@ jobs:
     if: github.ref != 'refs/heads/release'
     steps:
     - name: Checkout
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
 
     - uses: actions/setup-node@v3
       with:
@@ -37,7 +37,7 @@ jobs:
     if: github.ref != 'refs/heads/release'
     steps:
     - name: Checkout
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
 
     - uses: actions/setup-python@v3
 
@@ -65,7 +65,7 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
     - name: Checkout
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
 
     - name: Semantic Release
       uses: cycjimmy/semantic-release-action@v2
